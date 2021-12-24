@@ -5,6 +5,12 @@ body{
   margin: 0;
   padding: 0;
 }
+footer p{
+  justify-content: center;
+  margin-top: 3vh;
+  margin-left: 5px;
+  color: black;
+}
 
 a {
   color: #fff;
@@ -16,28 +22,7 @@ a:hover {
   opacity: 0.7;
 }
 
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  background-color: #fff;
-}
 
-#logo{
-    display: flex;
-    float: left;
-    margin-top: 60px;
-    max-width:200px;
-    max-height:200px;
-    width: auto;
-    height: auto;
-    margin-left: 5px;
-    position: relative;
-    background-color: #fff;
-
-
-
-}
 
 nav {
   width: 100%;
@@ -86,11 +71,12 @@ footer{
   
 
 }
-footer p{
-  justify-content: center;
-  margin-top: 3vh;
-  margin-left: 5px;
+footer p, a{
+  color: black;
 }
+
+
+
 
 .nav-list {
   list-style: none;

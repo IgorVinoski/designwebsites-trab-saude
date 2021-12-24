@@ -108,6 +108,12 @@ footer{
   background-color: gray;
 
 }
+footer p{
+  justify-content: center;
+  margin-top: 3vh;
+  margin-left: 5px;
+  color: black;
+}
 /*texto*/
 .title-blue {
 
